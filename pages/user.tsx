@@ -120,7 +120,7 @@ const User: React.FC = () => {
                       value={entry.rating}
                     />
                   </Descriptions.Item>
-                  <Descriptions.Item label="Comment" span={2}>
+                  <Descriptions.Item label="Comment" span={4}>
                     {entry.comment}
                   </Descriptions.Item>
                 </Descriptions>

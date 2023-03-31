@@ -199,7 +199,7 @@ const Manga = () => {
               />
             </Col>
             <Col xs={{ span: 24 }} lg={{ span: 4 }}>
-              <Typography.Title level={3}>Review</Typography.Title>
+              <Typography.Title level={3}>Rate this series</Typography.Title>
               <Divider
                 orientation="left"
                 style={{
@@ -219,7 +219,7 @@ const Manga = () => {
                     }
                   }}
                   style={{
-                    fontSize: "calc(2.5cqw - 5px)",
+                    fontSize: "calc(4cqh - 5px)",
                     textAlign: "center",
                   }}
                 ></Rate>
